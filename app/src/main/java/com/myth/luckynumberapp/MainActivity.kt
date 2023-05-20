@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+// I should change this to view binding.
 
         val wishMeLuckButton = findViewById<Button>(R.id.BtnShowLuckyNumber)
         val userNameInput = findViewById<EditText>(R.id.EtxtPersonName)
